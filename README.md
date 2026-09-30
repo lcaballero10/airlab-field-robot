@@ -30,9 +30,24 @@ $P_{task1}$ stands for the overall score, that includes the covered distance ($P
 
 More detailed information regarding task 1 and the overall competition can be found in [1].
 
-## Solution Architecture
+## Solution Considerations
 
-As were mentioned in the rules, a Global Navigation Satellite System (GNSS) sensor cannot be used. For this reason, we adopted a LiDAR-based approach for our algorithm. The i
+The following section contains an overview of the literature and references that were found to define our methodology for the solution, as well as a brief description of the robot constraints, including the sensor setup available.
+
+### Literature and Methodology
+
+An initial idea of the solution was reached by considering previous work, such as [2]. Besides, a repo containing a baseline for Task 1 solution was provided by AIRLab.
+
+Moreover, topic-related courses offered by Politecnico di Milano, such as "Robotics", and "Automation and Control of Autonomous Vehicles" were very useful for obtaining the foundations to further develop our solution.
+
+### Robot Constraints
+
+The robot has 3 operating modes: "AUTONOMOUS" , "MANUAL" and "STILL".
+The Autonomous mode is the one used for the competition, which should enabled the robot to autonomously navigate within the field. Manuel mode enables the teleoperation of the robot using the Joystick. And Still mode just keeps the robot standing without moving.
+
+The robot was able to move in one of the supported motions: Ackermann, Crab or Pivot.
+
+As sensor setup we were provided two 2D-LiDARs in the front and the rear of the robot, so we have a 360° view availability for detecting the robot surroundings.
 
 ## Simulation results
 
@@ -40,12 +55,17 @@ As were mentioned in the rules, a Global Navigation Satellite System (GNSS) sens
 
 ## Results
 
-## Aknowledgements
+## Acknowledgements
 
 I would like to aknowledge the work of my team, specially with whom I worked on the development of our algorithm for task 1.
+
 -
 -
+
 Besides, a special thanks to AirLAB for the support and giving us the opportunity to gain hands-on experience in robotics.
 
 ## References
-[1] [Field Robot Event 1](https://onecdn.io/media/fre2025rulesv10-526fd5a3-2ff8-4ae4-b1d4-b6f9f77f45ef.pdf)
+[1] [Field Robot Event 1](https://onecdn.io/media/fre2025rulesv10-526fd5a3-2ff8-4ae4-b1d4-b6f9f77f45ef.pdf) \
+[2] R. Bertoglio, V. Carni, S. Arrigoni and Matteo Matteucci,
+"A Map-Free LiDAR-Based System for Autonomous Navigation in Vineyards",
+[arXiv](https://arxiv.org/abs/2307.03080)
