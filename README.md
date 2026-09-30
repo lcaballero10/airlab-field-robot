@@ -24,9 +24,9 @@ Example of command sequence:
 ### Scoring
 The scoring for each participant robot is given by the following formula:
 
-$ P_{task1} = P_{distance} - P_{penalty} + P_{bonus}(t) $
+$P_{task1}=P_{distance}-P_{penalty}+P_{bonus}(t)$
 
-$ P_{task1} $ stands for the overall score, that includes the covered distance ($P_{distance}$), the penalty given by damaging plants ($P_{penalty}$) and a time-dependent bonus if the task is finished before the 3-minutes threshold ($P_{bonus}$).
+$P_{task1}$ stands for the overall score, that includes the covered distance ($P_{distance}$), the penalty given by damaging plants ($P_{penalty}$) and a time-dependent bonus if the task is finished before the 3-minutes threshold ($P_{bonus}$).
 
 More detailed information regarding task 1 and the overall competition can be found in [1].
 
