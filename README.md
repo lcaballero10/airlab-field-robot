@@ -40,6 +40,8 @@ An initial idea of the solution was reached by considering previous work, such a
 
 Moreover, topic-related courses offered by Politecnico di Milano, such as "Robotics", and "Automation and Control of Autonomous Vehicles" were very useful for obtaining the foundations to further develop our solution.
 
+Based on the above mentioned, we adopted a solution that follows a modular approach, in which each main feature is corresponds to a particular node, enabling an easy maintenance of the code and the implementation of the Finite State Machine (FSM), which is the main architecture of our solution and will be explained later. 
+
 ### Robot Constraints
 
 The robot has 3 operating modes: "AUTONOMOUS" , "MANUAL" and "STILL".
