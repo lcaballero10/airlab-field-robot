@@ -51,7 +51,33 @@ The robot was able to move in one of the supported motions: Ackermann, Crab or P
 
 As sensor setup we were provided two 2D-LiDARs in the front and the rear of the robot, so we have a 360° view availability for detecting the robot surroundings.
 
-## Simulation results
+## Environment
+
+The whole project was developed and tested on the following environment:
+
+| Component | Version |
+|-----------|---------|
+| OS | Ubuntu 22.04 LTS |
+| ROS 2 | Humble |
+| Docker | ✓ |
+| Python | 3.10.12 |
+
+### Dependencies
+
+#### ROS 2 Packages
+- `package-name`
+- `package-name`
+
+#### Python Packages
+- `package-name`
+- `package-name`
+
+
+## Software Architecture
+
+## Architecture Description
+
+## Simulation tests
 
 ## On-site tests
 
@@ -59,12 +85,9 @@ As sensor setup we were provided two 2D-LiDARs in the front and the rear of the 
 
 ## Acknowledgements
 
-I would like to aknowledge the work of my team, specially with whom I worked on the development of our algorithm for task 1.
+I would like to aknowledge the work of the FRE-Team, specially with whom I worked on the development of our algorithm for task 1 ().
 
--
--
-
-Besides, a special thanks to AirLAB for the support and giving us the opportunity to gain hands-on experience in robotics.
+Besides, a special thanks to AIRLab for the support and giving us the opportunity to gain hands-on experience in robotics.
 
 ## References
 [1] [Field Robot Event 1](https://onecdn.io/media/fre2025rulesv10-526fd5a3-2ff8-4ae4-b1d4-b6f9f77f45ef.pdf) \
