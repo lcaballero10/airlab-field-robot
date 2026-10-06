@@ -106,7 +106,8 @@ In general, the solution implemented includes the notion of pure pursuit applied
 ## Acknowledgements
 
 I would like to aknowledge the work of the AIRLab team, specially with whom I worked on the development of our algorithm for task 1:
-* [Alessio Spinetto] (https://github.com/Comodaino)
+* [Alessio Spinetto](https://github.com/Comodaino)
+* [Filippo di Fiore](https://github.com/Dif912)
 
 Besides, a special thanks to AIRLab for the support and giving us the opportunity to gain hands-on experience in robotics.
 
