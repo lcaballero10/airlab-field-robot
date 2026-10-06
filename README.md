@@ -99,8 +99,20 @@ In general, the solution implemented includes the notion of pure pursuit applied
 
 ## Simulation tests
 
+Now, a simulation test is shown displaying the features of the in-row navigation, exiting of the row and change of row capability by using the FSM. The RViz showed the clusters computed by the algorithm as well as the middle path generated to be followed.
+
+[![Watch the Simulation Test](media/test_simulation_2.gif)](https://youtu.be/DmrmrYzkLPg)
+
+A similar test was performed in the real robot on a simulated row in the Lab. In this case, only the in-row navigation capability was tested.
+
+[![Watch the Lab Test](media/lab_inrow_preview.gif)](https://youtube.com/shorts/LCfmj0Ouxz4)
+
 
 ## On-site tests
+
+Finally, some tests are presented in the real crop field.
+
+[![Watch the On-site Test](media/field_test.gif)](https://youtube.com/shorts/0gHDacwiwdI?feature=share)
 
 ## Acknowledgements
 
