@@ -65,17 +65,31 @@ The whole project was developed and tested on the following environment:
 ### Dependencies
 
 #### ROS 2 Packages
-- `package-name`
-- `package-name`
-
-#### Python Packages
-- `package-name`
-- `package-name`
-
+Main packages used:
+- `tf2_ros` → coordinate frames transformations 
+- `rviz2` → sensor data visualization
+- `robot_state_publisher` → publishes the URDF of the robot
+- `pcl_ros` → Pointcloud processing
 
 ## Software Architecture
 
+A high-level diagram, for the sake of privacy, is shown in the following image.
+
+<p align="center">
+  <img src="media/software_architecture.png" alt="Sotware Architecture" width="500">
+</p>
+
 ## Architecture Description
+
+From the robot side we have the following blocks:
+* Front and rear lidars
+* Motors
+
+On the other hand, from the Controller side we have:
+* Perception Task
+* Motion Controller
+* State Orchestrator
+* Command translator
 
 ## Simulation tests
 
