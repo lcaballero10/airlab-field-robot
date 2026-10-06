@@ -76,20 +76,26 @@ Main packages used:
 A high-level diagram, for the sake of privacy, is shown in the following image.
 
 <p align="center">
-  <img src="media/software_architecture.png" alt="Sotware Architecture" width="500">
+  <img src="media/software_architecture.png" alt="Sotware Architecture" width="400">
 </p>
 
 ## Architecture Description
 
 From the robot side we have the following blocks:
-* Front and rear lidars
-* Motors
+* Front and rear lidars: These are the only sensor available for our solution.
+* Motors: We have 8 motors for the robot motion: 4 drive motors and 4 steering motors.
 
 On the other hand, from the Controller side we have:
-* Perception Task
-* Motion Controller
-* State Orchestrator
-* Command translator
+* Perception Stack: Module that handles the sensor data and generates the path to be followed.
+* Motion Controller: Module that, given a path and current state of the robot, compute the robot action.
+* State Orchestrator: Module that contains the Finite State Machine and communicates with the "Perception Stack" and the "Motion Controller" module.
+* Command translator: Transform the motion computed from the controller in wheel speeds and positions.
+
+In general, the solution implemented includes the notion of pure pursuit applied to robotics. The image depicts an idea of the navigation approach [3]. As parameters for our solution the width of the crop row, as well as the look ahead distance were defined.
+
+<p align="center">
+  <img src="media/pure_pursuit.png" alt="Sotware Architecture" width="400">
+</p>
 
 ## Simulation tests
 
@@ -107,4 +113,5 @@ Besides, a special thanks to AIRLab for the support and giving us the opportunit
 [1] [Field Robot Event 1](https://onecdn.io/media/fre2025rulesv10-526fd5a3-2ff8-4ae4-b1d4-b6f9f77f45ef.pdf) \
 [2] R. Bertoglio, V. Carni, S. Arrigoni and Matteo Matteucci,
 "A Map-Free LiDAR-Based System for Autonomous Navigation in Vineyards",
-[arXiv](https://arxiv.org/abs/2307.03080)
+[arXiv](https://arxiv.org/abs/2307.03080) \
+[3] [Pure Pursuit in ROS](https://medium.com/@jefffer705/pure-pursuit-in-ros-noetic-7b2c0a3c36ef)
