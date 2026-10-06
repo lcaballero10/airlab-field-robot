@@ -99,9 +99,8 @@ In general, the solution implemented includes the notion of pure pursuit applied
 
 ## Simulation tests
 
-## On-site tests
 
-## Results
+## On-site tests
 
 ## Acknowledgements
 
