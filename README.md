@@ -143,12 +143,12 @@ Finally a video of how the robot performed in the actual competition for task1. 
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://youtube.com/shorts/lrRNQ8m6XAI?feature=share">
-        <img src="media/task1_short.gif" alt="Final run 1" width="100%">
+        <img src="media/task1_short.gif" alt="Final run 1" width="80%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://youtube.com/shorts/RgWm-kU9wxQ?feature=share">
-        <img src="media/task1_long.gif" alt="Final run 2" width="100%">
+        <img src="media/task1_long.gif" alt="Final run 2" width="80%">
       </a>
     </td>
   </tr>
