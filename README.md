@@ -99,20 +99,39 @@ In general, the solution implemented includes the notion of pure pursuit applied
 
 ## Simulation tests
 
-Now, a simulation test is shown displaying the features of the in-row navigation, exiting of the row and change of row capability by using the FSM. The RViz showed the clusters computed by the algorithm as well as the middle path generated to be followed.
+Now, a simulation test is shown displaying the features of the in-row navigation, exiting of the row and change of row capability by using the FSM. The RViz showed the clusters computed by the algorithm as well as the middle path generated to be followed. Click the gif to watch the full video.
 
-[![Watch the Simulation Test](media/test_simulation_2.gif)](https://youtu.be/DmrmrYzkLPg)
+<!-- [![Watch the Simulation Test](media/test_simulation_2.gif)](https://youtu.be/DmrmrYzkLPg) -->
 
-A similar test was performed in the real robot on a simulated row in the Lab. In this case, only the in-row navigation capability was tested.
+<p align="center">
+  <img src="media/test_simulation_2.gif"
+       alt="Simulation test"
+       width="500">
+</p>
 
-[![Watch the Lab Test](media/lab_inrow_preview.gif)](https://youtube.com/shorts/LCfmj0Ouxz4)
+A similar test was performed in the real robot on a simulated row in the Lab. In this case, only the in-row navigation capability was tested. Click the gif to watch the full video.
 
+<!-- [![Watch the Lab Test](media/lab_inrow_preview.gif)](https://youtube.com/shorts/LCfmj0Ouxz4) -->
+
+<p align="center">
+  <img src="media/lab_inrow_preview.gif"
+       alt="Lab test"
+       width="300">
+</p>
 
 ## On-site tests
 
-Finally, some tests are presented in the real crop field.
+Some tests are presented in the real crop field. Click the gif to watch the full video.
 
-[![Watch the On-site Test](media/field_test.gif)](https://youtube.com/shorts/0gHDacwiwdI?feature=share)
+<!-- [![Watch the On-site Test](media/field_test.gif)](https://youtube.com/shorts/0gHDacwiwdI?feature=share) -->
+
+<p align="center">
+  <img src="media/field_test.gif"
+       alt="On-site test"
+       width="300">
+</p>
+
+Finally a video of how the robot performed in the actual competition for task1. Click the gif to watch the full video.
 
 ## Acknowledgements
 
