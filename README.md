@@ -104,9 +104,11 @@ Now, a simulation test is shown displaying the features of the in-row navigation
 <!-- [![Watch the Simulation Test](media/test_simulation_2.gif)](https://youtu.be/DmrmrYzkLPg) -->
 
 <p align="center">
-  <img src="media/test_simulation_2.gif"
-       alt="Simulation test"
-       width="500">
+  <a href="https://youtu.be/DmrmrYzkLPg">
+    <img src="media/test_simulation_2.gif"
+        alt="Simulation test"
+        width="500">
+  </a>
 </p>
 
 A similar test was performed in the real robot on a simulated row in the Lab. In this case, only the in-row navigation capability was tested. Click the gif to watch the full video.
@@ -114,9 +116,11 @@ A similar test was performed in the real robot on a simulated row in the Lab. In
 <!-- [![Watch the Lab Test](media/lab_inrow_preview.gif)](https://youtube.com/shorts/LCfmj0Ouxz4) -->
 
 <p align="center">
-  <img src="media/lab_inrow_preview.gif"
-       alt="Lab test"
-       width="300">
+  <a href="https://youtube.com/shorts/LCfmj0Ouxz4">
+    <img src="media/lab_inrow_preview.gif"
+        alt="Lab test"
+        width="300">
+  </a>
 </p>
 
 ## On-site tests
@@ -126,9 +130,11 @@ Some tests are presented in the real crop field. Click the gif to watch the full
 <!-- [![Watch the On-site Test](media/field_test.gif)](https://youtube.com/shorts/0gHDacwiwdI?feature=share) -->
 
 <p align="center">
-  <img src="media/field_test.gif"
-       alt="On-site test"
-       width="300">
+  <a href="https://youtube.com/shorts/0gHDacwiwdI?feature=share">
+    <img src="media/field_test.gif"
+        alt="On-site test"
+        width="300">
+  </a>
 </p>
 
 Finally a video of how the robot performed in the actual competition for task1. Click the gif to watch the full video.
