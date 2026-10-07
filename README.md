@@ -139,6 +139,21 @@ Some tests are presented in the real crop field. Click the gif to watch the full
 
 Finally a video of how the robot performed in the actual competition for task1. Click the gif to watch the full video.
 
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://youtube.com/shorts/lrRNQ8m6XAI?feature=share">
+        <img src="media/task1_short.gif" alt="Final run 1" width="100%">
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://youtube.com/shorts/RgWm-kU9wxQ?feature=share">
+        <img src="media/task1_long.gif" alt="Final run 2" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Acknowledgements
 
 I would like to aknowledge the work of the AIRLab team, specially with whom I worked on the development of our algorithm for task 1:
